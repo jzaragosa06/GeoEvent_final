@@ -219,33 +219,10 @@
             </div>
         </div>
     </div>
-    {{-- <div id="sidebar">
-        <h1>Athmospheric Phenomena Layer</h1>
-        <hr>
-        <div class="color-scale">
-            <p>Clouds</p>
-            <div class="clouds"><span class="min">0 to</span> <span class="max">100</span></div>
-        </div>
-        <div class="color-scale">
-            <p>Precipitation</p>
-            <div class="precipitation"><span class="min">0 to</span> <span class="max">140</span></div>
-        </div>
-        <div class="color-scale">
-            <p>Pressure</p>
-            <div class="pressure"><span class="min">-65 to</span> <span class="max">30</span></div>
-        </div>
-        <div class="color-scale">
-            <p>Wind</p>
-            <div class="wind"><span class="min">1 to</span> <span class="max">200</span></div>
-        </div>
-        <div class="color-scale">
-            <p>Temperature</p>
-            <div class="temperature"><span class="min">-65 to</span> <span class="max">30</span></div>
-        </div> --}}
     <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
     <script>
-        // Your OpenWeatherMap API key
-        const apiKey = '797e5f4926d5f4094db2704a470df03f';
+        // Your OpenWeatherMap API key. Get from the website. 
+        const apiKey = 'API KEY'; 
 
         // Create a map centered at a particular location and zoom level
         const map = L.map('map').setView([0, 0], 5);
